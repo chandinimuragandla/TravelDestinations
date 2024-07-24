@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Lato", sans-serif; 
+}
+body{
+    background-color: whitesmoke;
+}
+ .image img{
+    height:90vh;
+    width:100%;
+    border-radius: 50px;
+    margin-top: 50px;
+ }
+  .headings{
+   display: flex;
+   margin-top: 60px;
+  }
+  .heading1 h1 {
+     font-size: 60px;
+     padding: 20px;
+     margin-left: 100px;
+  }
+  .heading2 h5{
+   font-size: 20px;
+   margin-top: 60px;
+   margin-left: -15px;
+  }
+  .heading1 h1 span{
+    color:rgb(38, 38, 245)
+  }
+  .heading2 h5 a{
+    color:black;
+
+  }
+  .heading2 h5 a:hover{
+    color: blue;
+  }
+  .box{
+    height: 110px;
+    width:500px;
+    display: flex;
+    margin-left:100px ;
+    border-radius: 10px;
+    background: black;
+    color: white;
+  }
+  .text h2{
+    padding: 20px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+  }
+  .img1{
+    margin-top:10px ;
+    margin-left: 10px;
+  }
+  .icon ion-icon{
+   font-size: 30px;    
+   margin-top: 50px;
+   margin-left: 50px;
+  }
+  .text1 blockquote{
+    font-size: 25px;
+    
+    margin-top: 20px;
+    margin-left: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  .boxes{
+    display: flex;
+    margin-top: 40px;
+    margin-left: 90px;
+    
+  }
+  .box1{
+    height:60px;
+    width:250px;
+    display: flex;
+    border-radius: 5px ;
+    background-color:skyblue;
+    margin: 20px;
+  }
+  .icon1 ion-icon{
+     color:green;
+     margin-top: 18px;
+     margin-left: 5px;
+     font-size: 20px;
+  }
+  .text2{
+    margin-top: 20px;
+    margin-left: 10px;
+  }
+  .icon2 ion-icon{
+    margin-left: 20px;
+    margin-top:20px ;
+    font-size: 20px;
+  }
+  .box2{
+    height:60px;
+    width:250px;
+    display: flex;
+    background-color:lightpink ;
+    border-radius: 5px;
+    margin: 20px;
+  }
+
+  .icon3 ion-icon{
+    color:rgb(211, 125, 151);
+    margin-top: 18px;
+    margin-left: 5px;
+    font-size: 20px;
+ }
+ .icon4 ion-icon{
+    margin-left: 20px;
+    margin-top:20px ;
+    font-size: 20px;
+  }
+  
+ 
