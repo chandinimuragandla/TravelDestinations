@@ -119,5 +119,171 @@ body{
     margin-top:20px ;
     font-size: 20px;
   }
+  .body2{
+    height:900px;
+    width:100%;
+    margin-top: 40px;
+    border-radius: 30px;
+    background-color: aliceblue;
+  }
+   h6 {
+   font-size: 20px;
+   background: linear-gradient(90deg, rgb(54, 54, 126), rgb(206, 50, 50)); -webkit-background-clip: text;
+   color: transparent;
+   display: inline-block;
+    margin-top: 80px;
+    margin-left: 80px;
+  
+   }
+ h1{
+  font-size: 45px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-left: 80px;
+  margin-top: 20px;
+ }  
+
+ .pics{
+display: flex;
+ }
+ .pic1 img{
+  height: 350px;
+  width:350px;
+  border-radius: 30px;
+  margin-left: 90px;
+  margin-top: 25px;
+ 
+ }
+ .pic2 img{
+  height: 350px;
+  width:350px;
+  border-radius: 30px;
+  margin: 25px;
   
  
+ } 
+ .pic3 img {
+  height: 350px;
+  width:350px;
+  border-radius: 30px;
+  margin: 20px;
+ 
+ }
+ .pic1 h3{
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 25px;
+ }
+ .pic2 h3{
+  margin-left: 40px;
+  font-size: 25px;
+ }
+ .pic3 h3{
+  margin-left: 60px;
+  font-size: 25px;
+  margin-top: 8px;
+  
+ 
+ }
+
+ .pic1 h5{
+  margin-left: 100px;
+  margin-top: 20px;
+  font-size: 20px;background: linear-gradient(90deg, rgb(206, 41, 178), rgb(52, 233, 91),rgb(255, 123, 0)); -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+ }
+ .pic2 h5{
+  margin-left: 40px;
+  font-size: 20px;
+  margin-top: 20px;
+  font-size: 20px;background: linear-gradient(90deg, rgb(206, 41, 178), rgb(52, 233, 91),rgb(255, 123, 0)); -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+ }
+ .pic3 h5{
+  margin-left: 60px;
+  font-size: 20px;
+  margin-top: 15px;
+  font-size: 20px;background: linear-gradient(90deg, rgb(206, 41, 178), rgb(52, 233, 91),rgb(255, 123, 0)); -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+ }
+ .pic1 p{
+  margin-left: 100px;
+ 
+ }
+ .pic2 p{
+  margin-left: 40px;
+  
+ }
+ .pic3 p{
+  margin-left: 60px;
+  
+ }
+ .body2 button{
+ margin-left: 500px;
+ margin-top: 60px;
+ height:40px;
+ width:180px;
+ border-radius: 10px;
+ background-color: skyblue;
+ font-size: 20px;
+ background: linear-gradient(90deg, rgb(122, 16, 105), #138fc0,rgb(255, 123, 0)); -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+ }
+ .arrows{
+ display: flex;
+ 
+ }
+ .arrow1{
+  font-size: 20px;
+  height:40px;
+ width:40px;
+ border-radius: 20px;
+ border: 1px black solid;
+ background-color: blue;
+ margin-top: -450px;
+ margin-left: 40px;
+ }
+ .arrow2{
+  font-size: 20px;
+  height:40px;
+ width:40px;
+ border-radius: 20px;
+ border: 1px black solid;
+ background-color: blue;
+ margin-top: -450px;
+ margin-left: 1140px;
+ 
+ }
+ .arrow1 ion-icon{
+  padding: 10px;
+ }
+ .arrow2 ion-icon{
+  padding: 10px;
+ }
+.body3{
+  background-image: url(../Images/egyptimg9.avif);
+  height: 600px;
+  width: 100%;
+  background-repeat: no-repeat;
+   background-size: cover;
+   border-radius: 50px;
+   margin-top: 30px;
+   position: absolute;
+} 
+.tool h2{
+  font-size: 45px;
+  margin-top: 120px;
+  margin-left: 120px;
+  color: white;
+}
+.tool p{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 120px;
+  background: linear-gradient(90deg, rgb(122, 16, 105), #138fc0,rgb(255, 123, 0)); -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+}
