@@ -40,3 +40,37 @@
     border-radius: 40px;
     margin-left: 150px;
 }
+
+.box1{
+    width:80%;
+    height: 2900px;
+    border: 1px grey solid;
+    margin-left: 150px;
+    margin-top: -20px;
+  
+    
+}
+.box1 p{
+    margin-top: 40px;
+    margin-left: 30px;
+    font-size: 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.box1 img{
+    margin-left: 80px;
+    width: 850px;
+}
+.box1 h2{
+    margin-left: 40px ;
+    margin-top: 10px;
+    background: linear-gradient(90deg, rgb(6, 126, 238), #df1a1a,rgb(81, 184, 224)); -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+  font-size: 25px;
+}
+.box1 blockquote{
+    margin-left: 40px;
+    font-size: 18px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+ 
