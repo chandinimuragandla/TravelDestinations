@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.img1 img{
+    height: 400px;
+    width: 100%;
+}
+.text p{
+    font-size: 20px;
+    margin-top: 10px;
+}
+.text h1{
+    font-size: 35px;
+    background: linear-gradient(90deg, orange, white,green); -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block; 
+    margin-left: 100px;
+}
+.text blockquote{
+    width:80%;
+    margin-left: 100px;
+    font-size: 22px;
+}
