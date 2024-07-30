@@ -1,0 +1,305 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(241, 237, 237);
+    width: 100%;
+}
+.logo h1{
+    margin-top: 20px;
+    font-size: 40px;
+    transition: all 0.5s ease;
+    color: rgb(68, 133, 231);
+    font-style: italic;
+}
+.logo h1:hover{
+    color: skyblue;
+}
+.nav-bar{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    list-style: none;
+    padding: 30px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(10, 9, 9);
+    font-weight: 500;
+    transition: all 0.5s ease ;
+}
+nav>ul>li>a:hover{
+    color: rgb(29, 8, 212);
+}
+.mega-menu{
+    position: absolute;
+    width: 60%;
+    height: 400px;
+    top: 100%;
+    left: 50%;
+    opacity: 0px;
+    box-shadow: 0px 10px 2px 3px lightblue;
+    transition: all 0.5s ease;
+    visibility: hidden;
+    background-color: white;
+}
+nav>ul>li:hover .mega-menu{
+    /* top: 100%; */
+    opacity: 1;
+    visibility: visible;
+}
+.mega-menu .mega-menu-items{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mega-menu h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.mega-menu h3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+  
+   
+}
+.mega-menu h3 a:hover{
+    color: skyblue;
+}
+.mega-menu p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+ 
+}
+.mega-menu-items img{
+    border-radius: 10px;
+}
+
+
+
+.mega-menu1{
+    position: absolute;
+    width: 55%;
+    height: 350px;
+    top: 100%;
+    left: 50%;
+    opacity: 0px;
+    box-shadow: 0px 10px 2px 3px lightblue;
+    /* transition: 2s; */
+    transition: all 0.5s ease;
+    visibility: hidden;
+    background-color: white;
+    
+}
+nav>ul>li:hover .mega-menu1{
+ 
+    opacity: 1;
+    visibility: visible;
+}
+.mega-menu .mega-menu1-items{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+
+.mega-menu1 p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+ 
+}
+.menu-items1 {
+    display: flex;
+}
+.mega-menu-items1 img{
+    border-radius: 10px;
+}
+
+ .drop-down{
+    display: flex;
+    justify-content: space-evenly;
+
+ }
+.travel-name{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.travel-name h2{
+   
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 25px;
+    margin-bottom: 20px;
+    
+}
+.travel-content ul li {
+    list-style: none;
+    margin-top: 10px;
+  
+}
+.travel-content ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.travel-content ul li a:hover{
+    color: skyblue;
+}
+.countries h4{
+    font-size: 18px;
+    margin-left: 20px;
+}
+
+
+.mega-menu2{
+    position: absolute;
+    width: 50%;
+    height: 230px;
+    top: 100%;
+    left: 60%;
+    opacity: 0px;
+    box-shadow: 0px 10px 2px 3px lightblue;
+    transition: all 0.5s ease;
+    visibility: hidden;
+    background-color: white;
+}
+nav>ul>li:hover .mega-menu2{
+    /* top: 100%; */
+    opacity: 1;
+    visibility: visible;
+}
+.mega-menu2 ul{
+    list-style: none;
+}
+
+.mega-menu2 ul li {
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 30px;
+  
+}
+.mega-menu2 ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.mega-menu2 ul li a:hover{
+    color: skyblue;
+}
+.img1 img{
+    height: 400px;
+    width: 100%;
+   
+}
+strong{
+    margin-top: 20px;
+    font-size: 40px;
+    background: linear-gradient(90deg, rgb(122, 16, 105), #138fc0,rgb(255, 123, 0)); -webkit-background-clip: text;
+  color: transparent;
+  display: inline-block;
+  margin-left: 500px;
+}
+
+.text h3{
+    margin-top: 40px;
+    background: linear-gradient(60deg,rgb(255, 81, 0),green, blue);
+ color:rgba(255, 255,255, 0.99);
+ background-clip: text;
+ -webkit-text-stroke: 4px transparent;
+ font-size: 35px;
+ border-left: 2px red solid;
+ margin-left: 200px;
+}
+.text blockquote{
+    margin-left: 200px;
+    font-size: 20px;
+    width:60%;
+
+}
+.text img{
+    margin-left: 200px;
+    width:800px;
+    height: 400px;
+}
+
+
+
+.footer{
+    background-color: rgb(241, 237, 237);
+    margin-top: 100px;
+    height: 500px;
+    margin-bottom: 50px;
+}
+.footer ul {
+    list-style: none;
+}
+
+.all-footer-divs{
+    display: flex;
+    
+}
+
+.all-footer-divs .div1{
+    margin-left: 200px;
+    margin-top: 30px;
+}
+.all-footer-divs .div1 a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;  
+    font-weight: 500;
+    transition: all 0.5s ease;  
+}
+.all-footer-divs .div1 a:hover{
+    color: rgb(44, 188, 245);
+}
+.footer .div1 form input{
+    width: 400px;
+    height: 50px;
+    margin-top: 50px;
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    margin-left: 600px;
+    
+}
+::placeholder{
+    font-size: 20px;
+}
+#submit-btn{
+    font-size: 20px;
+    margin-left: 900px;
+    margin-top: 40px;
+    transition: all 0.5s ease;
+    border: 2px solid black;
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+#submit-btn:hover{
+   background-color: skyblue;
+   color: black;
+   font-size: 22px;
+   transform: scale(1.05);
+   border: none;
+}
